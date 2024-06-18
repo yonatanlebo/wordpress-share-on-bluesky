@@ -21,7 +21,8 @@ define( 'SHARE_ON_BLUESKY_DEFAULT_DOMAIN', 'https://bsky.social' );
  * Add a settings page to the admin menu.
  *
  * @return void
- */
+*/
+
 function admin_menu() {
 	\add_options_page(
 		\esc_html__( 'Bluesky', 'share-on-bluesky' ),
@@ -352,12 +353,14 @@ function send_post( $post_id ) {
 							array(
 								'features' => array(
 									array(
-										'uri'   => \wp_get_shortlink( $post->ID ),
+										//'uri'   => \wp_get_shortlink( $post->ID ),
+										'uri'   => \wp_get_shortlink( $post ),
 										'$type' => 'app.bsky.richtext.facet#link',
 									),
 								),
 								'index'    => array(
-									'byteStart' => strlen( get_excerpt( $post ) ) - strlen( \wp_get_shortlink( $post->ID ) ),
+									//'byteStart' => strlen( get_excerpt( $post ) ) - strlen( \wp_get_shortlink( $post->ID ) ),
+									'byteStart' => strlen( get_excerpt( $post ) ) - strlen( \wp_get_shortlink( $post ) ),
 									'byteEnd'   => strlen( get_excerpt( $post ) ),
 								),
 							),
