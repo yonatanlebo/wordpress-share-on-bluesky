@@ -466,3 +466,4 @@ function cli_command() {
 	\WP_CLI::add_command( 'bluesky send', __NAMESPACE__ . '\cli_send' );
 }
 \add_action( 'cli_init', __NAMESPACE__ . '\cli_command' );
+

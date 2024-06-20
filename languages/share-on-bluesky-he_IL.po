@@ -2,39 +2,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Share On Bluesky\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-18 12:14+0000\n"
-"PO-Revision-Date: 2024-06-18 15:26+0300\n"
-"Last-Translator: yonatan leibovits <yonatanlebo@gmail.com>\n"
+"POT-Creation-Date: 2024-06-18 15:13+0000\n"
+"PO-Revision-Date: 2024-06-18 15:25+0000\n"
+"Last-Translator: יונתן לייבוביץ\n"
 "Language-Team: עִבְרִית\n"
 "Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.10; wp-6.5.4\n"
-"X-Domain: share-on-bluesky\n"
+"X-Domain: share-on-bluesky"
 
 #. Description of the plugin
 msgid "A simple Crossposter for Bluesky (AT Protocol)"
-msgstr "תוסף פשוט לפרסום ב בלוסקיי (AT Protocol)"
-
-#: share-on-bluesky.php:156
-msgid "Debug Informations"
-msgstr "מידע על ניפוי באגים"
+msgstr "A simple Crossposter for Bluesky (AT Protocol)"
 
 #. URI of the plugin
 msgid "https://github.com/pfefferle/wordpress-bluesky"
-msgstr ""
+msgstr "https://github.com/pfefferle/wordpress-bluesky"
 
 #. Author URI of the plugin
 msgid "https://notiz.blog/"
-msgstr ""
+msgstr "https://notiz.blog/"
 
 #. Author of the plugin
 msgid "Matthias Pfefferle"
-msgstr ""
+msgstr "Matthias Pfefferle"
 
 #. Name of the plugin
 msgid "Share On Bluesky"
-msgstr "שתף בבלוסקיי"
+msgstr "שתף אל בלוסקיי"
+
+msgid "WordPress is the best!"
+msgstr "וורדפרס הכי טובה!"
